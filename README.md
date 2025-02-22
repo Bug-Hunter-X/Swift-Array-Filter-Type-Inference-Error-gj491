@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to type inference in Swift's `filter` method when used with arrays of numbers. The bug arises from the compiler's inability to correctly infer the return type of the closure passed to `filter` unless explicitly stated. The solution shows how to fix this issue by clearly defining the return type within the closure.
